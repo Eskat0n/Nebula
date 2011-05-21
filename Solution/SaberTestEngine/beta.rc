@@ -1,0 +1,96 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "gfx/interface/buttons/connect.bmp"
+IDB_BITMAP2             BITMAP                  "gfx/interface/buttons/connect_light.bmp"
+IDB_BITMAP3             BITMAP                  "gfx/interface/buttons/hostgame.bmp"
+IDB_BITMAP4             BITMAP                  "gfx/interface/buttons/hostgame_light.bmp"
+IDB_BITMAP5             BITMAP                  "gfx/interface/buttons/hotseat.bmp"
+IDB_BITMAP6             BITMAP                  "gfx/interface/buttons/hotseat_light.bmp"
+IDB_BITMAP7             BITMAP                  "gfx/interface/buttons/multiplayer.bmp"
+IDB_BITMAP8             BITMAP                  "gfx/interface/buttons/multiplayer_light.bmp"
+IDB_BITMAP9             BITMAP                  "gfx/interface/buttons/options.bmp"
+IDB_BITMAP10            BITMAP                  "gfx/interface/buttons/options_light.bmp"
+IDB_BITMAP11            BITMAP                  "gfx/interface/buttons/quit.bmp"
+IDB_BITMAP12            BITMAP                  "gfx/interface/buttons/quit_light.bmp"
+IDB_BITMAP13            BITMAP                  "gfx/interface/buttons/singleplayer.bmp"
+IDB_BITMAP14            BITMAP                  "gfx/interface/buttons/singleplayer_light.bmp"
+//IDB_BITMAP15            BITMAP                  "gfx/interface/buttons/OpenGL_logo [].bmp"
+//IDB_BITMAP16            BITMAP                  "gfx/interface/buttons/directx_logo.bmp"
+//IDB_BITMAP17            BITMAP                  "gfx/interface/buttons/bitmap17.bmp"
+//IDB_BITMAP18            BITMAP                  "gfx/interface/buttons/OpenGL_logo.bmp"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

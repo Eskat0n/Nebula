@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="SaberTestEngine"
+	ProjectGUID="{FC5AB30F-3A8D-4E7D-85B2-7E2ADF1B7253}"
+	RootNamespace="SaberTestEngine"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="196608"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="1"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				FavorSizeOrSpeed="0"
+				WholeProgramOptimization="false"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS"
+				MinimalRebuild="false"
+				BasicRuntimeChecks="0"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="4"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkIncremental="2"
+				GenerateDebugInformation="true"
+				SubSystem="2"
+				LinkTimeCodeGeneration="0"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="1"
+			CharacterSet="1"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				EnableIntrinsicFunctions="true"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkIncremental="1"
+				GenerateDebugInformation="true"
+				SubSystem="2"
+				OptimizeReferences="1"
+				EnableCOMDATFolding="2"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="FileAccessLevel"
+			>
+		</Filter>
+		<Filter
+			Name="Game Core"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath="..\..\Game Core\GameDeclarations.h"
+				>
+			</File>
+			<Filter
+				Name="Headers"
+				>
+				<File
+					RelativePath="..\..\Game Core\GameCoreClass_Armade.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreClass_Game.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreClass_GameStates.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreClass_Misc.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreClass_Msc.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreClass_Player.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreClass_Ships.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Source Files"
+				>
+				<File
+					RelativePath="..\..\Game Core\GameCoreFunc_Armade.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreFunc_EnemyShips.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreFunc_Game.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreFunc_GameStates.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreFunc_Misc.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreFunc_Player.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\Game Core\GameCoreFunc_Ships.cpp"
+					>
+				</File>
+			</Filter>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+			<File
+				RelativePath=".\beta.rc"
+				>
+			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="SaberX Engine"
+			>
+			<File
+				RelativePath="..\..\SaberX Engine\SaberXEngineClass.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\SaberX Engine\SaberXEngineFunc.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\SaberX Engine\SaberXMath.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\SaberX Engine\SaberXTrajectoriesDecl.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\SaberX Engine\SaberXTrajectoriesImpl.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\SaberX Engine\SbrXFramerClass.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\SaberX Engine\SbrXFramerFunc.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Audio Engine"
+			>
+			<File
+				RelativePath="..\..\Azumaria Sound Engine\AzuEngineClass.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Azumaria Sound Engine\AzuEngineFunc.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Menu"
+			>
+			<File
+				RelativePath=".\ProgramCore.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Graphic Engine"
+			>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Animation.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Animation.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Console.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Console.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_DirectX.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_DirectX.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Dispatcher.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Dispatcher.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Interface.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Sprite.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberGE_Sprite.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberHUDClass.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Saber Graphic Engine\SaberHUDFunc.cpp"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
